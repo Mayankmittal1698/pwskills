@@ -1,0 +1,84 @@
+Question 1. Who developed Python Programming Language?
+Ans. Python was invented by "Guido Van Rossum" in 1989
+
+Question 2. Whcih type of Programming does Python support?
+Ans. Python support mutiple programming paradigms which includes Procedural(structured)
+programming as its built on C and also fully support OOPs and some functional programming supports
+
+Question 3. Is Python case Sensitive when dealing with identifiers?
+Ans. Yes, as Python is a case sensitive language it treats "name" and "Name" both as seperate and same applies to identifiers also. 
+
+Question 4. What is the correct extension of the Python file?
+Ans. " .py "
+
+Question 5. Is Python code compliled or Interpreted?
+Ans. Python is interpreted Language which means the code first Interpreted which then executed (with the help) on Python virtual machine
+
+Question 6. Name a few blocks of code used to define in Python language?
+Ans. (confused about this as we have to add any code block like "for Loop" or similar code block or class or function block
+[
+  for i in range(1,10,2):
+    for j in range(10,i,-2):
+        print(" ",end = "")
+    print("*"*i)     
+]
+Question 7. State a character used to give single-line comments in Python?
+Ans. To gave single Line comment in python we Generally used [#] #hash to comment single line of code
+
+Question 8. Mention functions which can help us to find the version of python that we are currently working on?
+Ans. "Import sys 
+      sys.version" we can use this code to find version in IDE we are using if we are in command prompt
+      we can use simply "python --v"
+
+Question 9. Python supports the creation of anonymous functions at runtime, using a contructor called......
+Ans. Lamdba function are generally used to use single line function in our code without creating any funtion
+but return single output means they have some limitation over normal major benefits of these are when we don't function
+more than once we prefer lambda function
+
+Question 10. What does PIP stands for in Python? 
+Ans PIP stands for Preferred Installer Program which generally used in command prompt to install update or delete on library or version of Python
+
+
+Question 11. Mention a few built-in function in Python?
+Ans. Some Inbuilt Functions are : 
+      isUpper()  isalnum()  int()   str()   type()    len()
+
+Question 12. What is the maximum possible length of an identifier in Python?
+Ans. Maximum allowed length for an identifier is 79 character in python
+
+Question 13. What are the benefits of using Python?
+Ans. Here are some key benefits of python : 
+Huge Library and community 
+Open-source and Widely used
+Famous for it capability in deep learning , machine learning , Artificial Inteligence 
+Intuitive and easy to learn
+Syntax quite similar to English language
+
+Question 14. How is memory managed in Python?
+Ans. Python manage its memory dynamically dynamically means in other programming language we have to state
+how much memory generally a variable or object can max hold but that's not the case in Python we just initiate 
+python object rest all will be handled by python itself it dynamically allot memory according to object features 
+
+Question 15. How to install Python on Windows and set Path Variables?
+Ans. So if we don't want python to install throught any IDE we can simple follow below steps:
+ 1. Search for "Download Python"
+ 2. Choose the first link and download latest version if not latest we can choose including the system we want to install
+ 3. after downloading install it to desired path and just follow the instruction 
+ 4. After installation complete now we have to set path variable
+ 5 To set path first open Python folder where it installed(C://Python310)
+ 6 Copy this path and Open "Edit the system environment variable" by search on system or
+ Right click on My Computer>Properties>> Advance System Setting>> Environment variable>>
+ 7 Now on Environment Variable box we have two opton either 
+ set Python Path for User only or at whole System (if you go for system be carefull as one wrong move might affect working 
+ of system)
+ 7 find "path" in click edit>> new >> path Python folder path here 
+ 
+ now check this by opening cmd and type "python --version" if it works then fine else need to fix the issue check internet and find where did we go wrong
+ 
+Question 16. Is identation required in Python?
+Ans. In Python to enter any block of code Identation is must as in Python many times braces or bracket doesn't required
+like in other programming so to let machine know that we are entering in this block we generally provide identation 
+which generally dont by TAB button
+
+
+
