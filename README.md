@@ -1,2 +1,2 @@
 # pwskills
-In this repo I will share all my work done during my Data Science course from PW Skills Taught by Krish Naik Sir and Sudhanshu Sir 
+In this repo will share all my work done during my Data Science course from PW Skills Taught by Krish Naik Sir and Sudhanshu Sir for Data Science Masters course
